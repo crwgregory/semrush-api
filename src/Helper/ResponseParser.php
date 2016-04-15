@@ -109,7 +109,9 @@ class ResponseParser
     protected function splitStringIntoArray($data)
     {
         $rows = explode("\n", $data);
-        unset($rows[0]);
+        if(strlen($rows[count($rows) - 1]) == 0) {
+            unset($rows[count($rows) - 1]);
+        }
         return $rows;
     }
 
