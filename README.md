@@ -1,6 +1,7 @@
 # SEMrush API client
-## This repository has been forked from the [Silktide/semrush-api](https://github.com/silktide/semrush-api) repository and been made available on Packagist so to allow [Pagekit to install it as a dependency.](https://github.com/pagekit/pagekit/issues/630)
-## As such, the name of the project in the composer.json has been changed from silktide/semrush-api to nativerank/silktide-semrush-api so as to better define it for use in Pagekit and Nativerank.
+### This repository has been forked from the [Silktide/semrush-api](https://github.com/silktide/semrush-api) repository and been made available on [Packagist](https://packagist.org/packages/nativerank/silktide-semrush-api) so to allow [Pagekit to install it as a dependency.](https://github.com/pagekit/pagekit/issues/630)
+#### There has been a single change to the code base in the ResponseParser that's diverged this fork from the main API.
+#### As such, the name of the project in the composer.json has been changed from 'silktide/semrush-api' to 'nativerank/silktide-semrush-api' to define the creator of the API, but make it specific to Nativeranks needs.
 
 [![Build Status](https://travis-ci.org/silktide/semrush-api.svg?branch=master)](https://travis-ci.org/silktide/semrush-api)
 [![Code Climate](https://codeclimate.com/github/silktide/semrush-api/badges/gpa.svg)](https://codeclimate.com/github/silktide/semrush-api)
