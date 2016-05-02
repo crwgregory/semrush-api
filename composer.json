@@ -1,5 +1,5 @@
 {
-    "name": "silktide/semrush-api",
+    "name": "nativerank/silktide-semrush-api",
     "description": "SEMrush API client",
     "require": {
         "php": ">=5.5.0",
